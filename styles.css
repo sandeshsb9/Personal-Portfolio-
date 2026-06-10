@@ -276,16 +276,29 @@ section.show {
 }
 
 .profile-pic img {
+  width: 108%;
+  height: 108%;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  object-fit: contain;
+  box-shadow: #00000067 0px 10px 30px;
+}
+
+.about-us .profile-pic-second {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+.about-us .profile-pic-second img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   border: 5px solid transparent;
-  object-fit: cover;
+  object-fit: contain;
   box-shadow: #00000067 0px 10px 30px;
 }
-.about-us .profile-pic img {
-  box-shadow: none;
-}
+
 .glow-circle {
   position: absolute;
   top: -20px;
