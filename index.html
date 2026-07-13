@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">
+          <a href="index.html" style="text-decoration: none">
+            <span>Portfolio</span>
+          </a>
+        </h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="hero">
+        <div class="content">
+          <h1>Hello, It's Me<br /><span class="name">Sandesh Bhatta</span></h1>
+          <h2>
+            And I'm a <span class="highlight">Cybersecurity Enthusiast</span>
+          </h2>
+          <p>
+            with extensive experience in protecting systems, networks, and data
+            from modern digital threats. I am continuously learning and
+            developing my skills in different areas of cybersecurity.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <a href="#about" class="btnn">More About Me</a>
+        </div>
+        <div class="profile-pic">
+          <img src="./images/Profile-img-.png" alt="Profile Picture" />
+          <div class="glow-circle"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about-us">
+        <div class="profile-pic-second">
+          <img src="./images/Profile-img-.png" alt="Profile Picture" />
+        </div>
+        <div class="about-content">
+          <h1>About Me</h1>
+          <p>
+            My name is Sandesh Bhatta, and I am a passionate cybersecurity
+            enthusiast with a strong interest in protecting systems, networks,
+            and data from modern digital threats. I am continuously learning and
+            developing my skills in areas such as ethical hacking, network
+            security, and system protection.
+          </p>
+          <p>
+            I love exploring new tools and technologies in the cybersecurity
+            field, including Linux environments, security testing tools, and
+            basic penetration testing concepts. I also stay updated with current
+            cybersecurity trends and attack methods to improve my defensive
+            knowledge.
+          </p>
+          <p>
+            If you're interested in working with me or have any questions, feel
+            free to reach out to me. I'd be more than happy to help!
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <h1>Skills</h1>
+        <div class="skills-content">
+          <div class="progress-item">
+            <span>Linux</span>
+            <div class="progress">
+              <div class="progress-fill" style="width: 95%"></div>
+            </div>
+            <span class="percent">95%</span>
+          </div>
+          <div class="progress-item">
+            <span>Vulnerability Assessment</span>
+            <div class="progress">
+              <div class="progress-fill" style="width: 90%"></div>
+            </div>
+            <span class="percent">90%</span>
+          </div>
+          <div class="progress-item">
+            <span>Penetration Testing</span>
+            <div class="progress">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+            <span class="percent">85%</span>
+          </div>
+          <div class="progress-item">
+            <span>Network Security</span>
+            <div class="progress">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+            <span class="percent">80%</span>
+          </div>
+          <div class="progress-item">
+            <span>Digital Forensics</span>
+            <div class="progress">
+              <div class="progress-fill" style="width: 75%"></div>
+            </div>
+            <span class="percent">70%</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h1>Projects</h1>
+        <div class="project">
+          <img src="./images/project_img.png" alt="Project Image" />
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./images/project_img.png" alt="Project Image" />
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./images/project_img.png" alt="Project Image" />
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="Contact">
+        <div class="contact-info">
+          <h2>Contact Me</h2>
+          <form id="contactForm">
+            <input
+              type="hidden"
+              name="access_key"
+              value="2af8df58-5c3f-4ccd-94f2-291762e29327" 
+              /> 
+              <!-- This is a public key generated by web3forms.com, 
+              it's like a form id. We can safely use it in client side code. -->
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31713618354!2d85.28493302080203!3d27.708954252207754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1732789638621!5m2!1sen!2snp"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Sandesh Bhatta. All rights reserved.</p>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+</html>
